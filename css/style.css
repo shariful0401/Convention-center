@@ -1,0 +1,28 @@
+.moment{
+  display: flex;
+}
+@media screen and (max-width:576px ){
+  .moment{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+}
+.choose-btn{
+  background-color: #F496D1;
+  border: none;
+  padding: 14px 60px;
+  border-radius: 50px;
+}
+.plan{
+  color: #3F87F5;
+  font-weight: 700;
+}
+.package-section{
+  display: flex;
+}
+@media screen and (max-width:576px){
+  .package-section{
+    display: flex;
+    flex-direction: column;
+  }
+}
