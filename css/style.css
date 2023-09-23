@@ -1,28 +1,71 @@
-.moment{
+.moment {
   display: flex;
 }
-@media screen and (max-width:576px ){
-  .moment{
-    display:flex;
-    flex-direction:column-reverse;
+
+@media screen and (max-width:576px) {
+  .moment {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
-.choose-btn{
+
+.choose-btn {
   background-color: #F496D1;
+  /* opacity: 0.1; */
   border: none;
   padding: 14px 60px;
   border-radius: 50px;
 }
-.plan{
+
+.plan {
   color: #3F87F5;
   font-weight: 700;
 }
-.package-section{
+
+.package-section {
   display: flex;
 }
-@media screen and (max-width:576px){
-  .package-section{
+
+@media screen and (max-width:576px) {
+  .package-section {
     display: flex;
+    flex-direction: column;
+  }
+}
+
+.wedding-plus {
+  background-color: #3F87F5;
+  border-radius: 80px;
+}
+
+#choose-btn {
+  background-color: white;
+  padding: 14px 60px;
+  border: none;
+  border-radius: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+
+.cardes {
+  height: 300px;
+  width: 350px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.13);
+}
+.cardes img, h4,h6{
+  justify-content: center;
+  padding-left: 90px;
+}
+
+@media screen and (max-width:576px) {
+  .cards {
     flex-direction: column;
   }
 }
